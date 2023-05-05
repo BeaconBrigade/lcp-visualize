@@ -9,6 +9,8 @@ exclude = ["dist", "build"]
 
 [dependencies]
 bevy = "0.10.1"
+chatelier = "0.1.0"
+chem-eq = "0.3.1"
 
 [build-dependencies]
 embed-resource = "1.4"
