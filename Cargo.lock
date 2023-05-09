@@ -924,6 +924,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_wasm_window_resize"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4be1af54f9772f07f91db012d0b99c4c5e95faee7015e53e5d30422fd8778ef3"
+dependencies = [
+ "bevy",
+ "web-sys",
+]
+
+[[package]]
 name = "bevy_window"
 version = "0.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1967,6 +1977,7 @@ name = "lcp-visualize"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "bevy_wasm_window_resize",
  "chatelier",
  "chem-eq",
  "embed-resource",

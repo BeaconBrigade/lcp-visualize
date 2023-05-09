@@ -9,6 +9,7 @@ exclude = ["dist", "build"]
 
 [dependencies]
 bevy = "0.10.1"
+bevy_wasm_window_resize = "0.1.1"
 chatelier = "0.1.0"
 chem-eq = "0.3.1"
 
